@@ -13,3 +13,21 @@
 - npm i react-router-dom
 - npm i redux react-redux
 - npm i react-bootstrap bootstrap
+
+### prettierrc설정
+
+```
+{
+    "singleQuote": true,
+    "semi": true,
+    "tabWidth": 2,
+    "trailingComma": "all",
+    "printWidth": 80
+}
+```
+
+bootstrap 설정
+
+```
+import 'bootstrap/dist/css/bootstrap.min.css';
+```
