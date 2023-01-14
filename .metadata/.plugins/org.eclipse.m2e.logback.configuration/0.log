@@ -5,3 +5,4 @@
 2023-01-14 11:35:35,578 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\qkrfo\git\book\book-backend\src\test\resources
 2023-01-14 11:35:37,202 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
 2023-01-14 11:35:37,207 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-14 11:35:37,211 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\qkrfo\git\book\book-backend\src\test\resources
