@@ -1,0 +1,19 @@
+server:
+  servlet:
+    encoding:
+      charset: utf-8
+      enabled: true
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3307/blog?serverTimezone=Asia/Seoul
+    username: newbie
+    password: qk45qk45!!
+    
+  jpa:
+    hibernate:
+      ddl-auto: create # create,update,none
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    show-sql: true
