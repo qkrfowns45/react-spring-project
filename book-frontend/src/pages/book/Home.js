@@ -9,13 +9,12 @@ const Home = () => {
     fetch('http://localhost:8080/book')
       .then((res) => res.json())
       .then((res) => {
-        console.log(1, res);
         setBooks(res);
       }); //비동기 함수
   }, []);
 
   return (
-    <div className="m-5">
+    <div>
       {books.map((book) => (
         <BookItem key={book.id} book={book} />
       ))}
